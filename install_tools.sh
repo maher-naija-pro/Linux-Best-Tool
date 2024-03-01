@@ -2,7 +2,7 @@
 # check os versio
 os=$(cat /etc/os-release | grep PRETTY_NAME |  cut -d'"' -f2)
 
-known_versions=("Rocky Linux 9.2 (Blue Onyx)" "CentOS Linux 7 (Core)" "Rocky Linux 9.1 (Blue Onyx)", "Rocky Linux 9.3 (Blue Onyx)" )
+known_versions=("Rocky Linux 9.2 (Blue Onyx)" "CentOS Linux 7 (Core)" "Rocky Linux 9.1 (Blue Onyx)" "Rocky Linux 9.3 (Blue Onyx)" )
 
 found=false
 
